@@ -1,0 +1,80 @@
+body {
+    background-color: #FFFAFA;
+}
+.head {
+    margin: 0 0 0 0;
+    height: 90px;
+    background-color: #181839;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#one {
+    width: 140px;
+    font-size: 40px;
+    margin-left:  0;
+    margin-right: 0px;
+    margin-top: 14px;
+    margin-bottom: 18px;
+    text-align: center;
+    border: 7px solid white;
+    color: white;
+    background-color: #181839;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+
+img {
+    width: 300px;
+    overflow: hidden;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.rows1 {
+    background-color: white;
+    padding: 0;
+    border-radius: 15px;
+    width: 300px;
+    height: 655px;
+    margin: 15px;
+    box-shadow: 0px 2px 15px rgb(137, 121, 121);
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 27px;
+    margin-right: 27px;
+}
+
+p.text {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 27px;
+    margin-right: 27px;
+    height: 200px;
+    font-size: 20px;
+}
+
+
+
+
+#fb,#ig,#gh {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+}
+
