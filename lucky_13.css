@@ -1,5 +1,6 @@
 body {
     background-color: #FFFAFA;
+    margin: 0 0 0 0;
 }
 .head {
     margin: 0 0 0 0;
@@ -11,7 +12,7 @@ body {
 
 .container {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: wrap;
     justify-content: center;
 }
 
@@ -32,7 +33,9 @@ section {
     display: flex;
     justify-content: center;
 }
-
+.social {
+    height: 100px;
+}
 
 img {
     width: 300px;
@@ -53,10 +56,13 @@ img {
 }
 
 h2 {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    vertical-align: middle;
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-left: 27px;
     margin-right: 27px;
+    padding-top: 5px;
+    height: 40px;
 }
 
 p.text {
